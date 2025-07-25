@@ -1,0 +1,14 @@
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0px;
+    padding: 0px;
+}
+#Barra_De_Navegacao {
+    background-color: #333;
+    padding: 0px;
+    margin: 0px;
+}
+#Barra_De_Navegacao nav ul li{
+    display: inline-block;
+}
