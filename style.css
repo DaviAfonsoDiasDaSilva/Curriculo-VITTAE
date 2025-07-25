@@ -12,3 +12,9 @@
 #Barra_De_Navegacao nav ul li{
     display: inline-block;
 }
+#Barra_De_Navegacao nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+}
