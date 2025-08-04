@@ -4,6 +4,11 @@
     padding: 0px;
     margin: 0px;
 }
+#Barra_De_Navegacao nav ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
 #Barra_De_Navegacao nav ul li{
     display: inline-block;
 }
@@ -12,4 +17,31 @@
     text-decoration: none;
     padding: 15px 20px;
     display: inline-block;
+}
+#Conteudo{
+    padding-inline-start: 20%;
+    padding-inline-end: 20%;
+}
+#Cabecario{
+    background-color: black;
+    text-align: center;
+    padding-inline-start: 15%;
+    padding-inline-end: 15%;
+}
+.Cabecario .Minha_foto{
+}
+.Cabecario .Titulo h1{
+    color:white;
+}
+.Cabecario .Apresentacao_Rapida p{
+    color:white;
+}
+.Cabecario .Email p{
+    color:white;
+}
+.Cabecario .Cidade p{
+    color:white;
+}
+body{
+    margin:0px;
 }

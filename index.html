@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Davi Afonso Dias da Silva</title>
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
@@ -15,50 +16,51 @@
                 document.getElementById('Barra_De_Navegacao').innerHTML = data;
             });
     </script>
+    <div id="Conteudo">
+        <div id="Cabecario"></div>
+        <script>
+            fetch('Cabecario.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('Cabecario').innerHTML = data;
+                });
+        </script>
 
-    <div id="Cabecario"></div>
-    <script>
-        fetch('Cabecario.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('Cabecario').innerHTML = data;
-            });
-    </script>
+        <div id="Educacao"></div>
+        <script>
+            fetch('Educacao.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('Educacao').innerHTML = data;
+                });
+        </script>
 
-    <div id="Educacao"></div>
-    <script>
-        fetch('Educacao.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('Educacao').innerHTML = data;
-            });
-    </script>
+        <div id="Certificacoes"></div>
+        <script>
+            fetch('Certificacoes.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('Certificacoes').innerHTML = data;
+                });
+        </script>
+        
+        <div id="Experiencia"></div>
+        <script>
+            fetch('Experiencia.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('Experiencia').innerHTML = data;
+                });
+        </script>
 
-    <div id="Certificacoes"></div>
-    <script>
-        fetch('Certificacoes.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('Certificacoes').innerHTML = data;
-            });
-    </script>
-    
-    <div id="Experiencia"></div>
-    <script>
-        fetch('Experiencia.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('Experiencia').innerHTML = data;
-            });
-    </script>
-
-    <div id="Habilidades_Tecnicas"></div>
-    <script>
-        fetch('Habilidades_Tecnicas.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('Habilidades_Tecnicas').innerHTML = data;
-            });
-    </script>
+        <div id="Habilidades_Tecnicas"></div>
+        <script>
+            fetch('Habilidades_Tecnicas.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('Habilidades_Tecnicas').innerHTML = data;
+                });
+        </script>
+    </div>
 </body>
 </html>
