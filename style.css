@@ -18,17 +18,20 @@
     padding: 15px 20px;
     display: inline-block;
 }
+
+
 #Conteudo{
     padding-inline-start: 20%;
     padding-inline-end: 20%;
 }
+
+
 #Cabecario{
-    background-color: black;
+    background-color: #333;
     text-align: center;
     padding-inline-start: 15%;
     padding-inline-end: 15%;
-}
-.Cabecario .Minha_foto{
+    border-radius: 30px;
 }
 .Cabecario .Titulo h1{
     color:white;
@@ -42,6 +45,9 @@
 .Cabecario .Cidade p{
     color:white;
 }
+
+
+
 body{
     margin:0px;
 }
