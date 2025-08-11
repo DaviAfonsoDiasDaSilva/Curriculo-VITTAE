@@ -26,27 +26,29 @@
 }
 
 
-#Cabecario{
+.section{
     background-color: #333;
     text-align: center;
-    padding-inline-start: 15%;
-    padding-inline-end: 15%;
+    padding-inline-start: 25%;
+    padding-inline-end: 25%;
     border-radius: 30px;
 }
-.Cabecario .Titulo h1{
+.section h1{
     color:white;
 }
-.Cabecario .Apresentacao_Rapida p{
+.section h2{
     color:white;
 }
-.Cabecario .Email p{
+.section h3{
     color:white;
 }
-.Cabecario .Cidade p{
+.section  p{
     color:white;
 }
-
-
+.section li{
+    color:white;
+    
+}
 
 body{
     margin:0px;
