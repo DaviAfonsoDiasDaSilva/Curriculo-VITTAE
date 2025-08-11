@@ -49,6 +49,12 @@
     color:white;
     
 }
+.section a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+}
 
 body{
     margin:0px;

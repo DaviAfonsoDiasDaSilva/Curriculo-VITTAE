@@ -61,6 +61,52 @@
                     document.getElementById('Habilidades_Tecnicas').innerHTML = data;
                 });
         </script>
+        <div id="Rodape" class="section"></div>
+        <script>
+            fetch('Rodape.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('Rodape').innerHTML = data;
+                });
+        </script>
     </div>
+    <script>
+    // NOVA FUNÇÃO: Para mostrar todas as seções (o nosso "Home")
+    function mostrarTodos() {
+        const container = document.getElementById('Conteudo');
+        if (!container) return;
+
+        const todosOsFilhos = container.children;
+
+        for (const filho of todosOsFilhos) {
+            // Ignora as tags de script que estão no meio do conteúdo
+            if (filho.tagName !== 'SCRIPT') {
+                filho.style.display = 'block';
+            }
+        }
+    }
+
+    // Função que já tínhamos: Para mostrar apenas UMA seção
+    function mostrarUnicoFilho(idDoElementoParaMostrar) {
+        const container = document.getElementById('Conteudo');
+        if (!container) return;
+        
+        const todosOsFilhos = container.children;
+        
+        for (const filho of todosOsFilhos) {
+            if (filho.tagName === 'SCRIPT') continue;
+
+            if (filho.id === idDoElementoParaMostrar) {
+                filho.style.display = 'block'; 
+            } else {
+                filho.style.display = 'none';
+            }
+        }
+    }
+
+    // IMPORTANTE: Define o estado inicial quando a página termina de carregar
+    // Isso garante que, ao abrir o site, o conteúdo principal esteja visível.
+    window.onload = mostrarTodos;
+</script>
 </body>
 </html>
