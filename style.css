@@ -1,6 +1,6 @@
 
 .Barra_De_Navegacao {
-    background-color: #333;
+    background-color: #070260;
     padding: 0px;
     margin: 0px;
 }
@@ -27,35 +27,41 @@
 
 
 .section{
-    background-color: #333;
+    background-color: #150bc3;
     text-align: center;
     padding-inline-start: 25%;
     padding-inline-end: 25%;
     border-radius: 30px;
 }
 .section h1{
-    color:white;
+    color: white;
 }
 .section h2{
-    color:white;
+    color: white;
 }
 .section h3{
-    color:white;
+    color: white;
 }
 .section  p{
-    color:white;
+    color: white;
 }
 .section li{
-    color:white;
-    
-}
-.section a{
     color: white;
+    
+}   
+.section a{
+    color: rgb(156, 234, 140);
     text-decoration: none;
     padding: 15px 20px;
     display: inline-block;
 }
 
+.Apresentacao_Rapida{
+    background-color: #070260;
+    border-radius: 10px;
+}
+
 body{
+    background-color: #150bc3;
     margin:0px;
 }
